@@ -315,6 +315,41 @@ export type AllDocumentTypes =
 	| TribepageDocument;
 
 /**
+ * Primary content in *Members → Items*
+ */
+export interface MembersSliceDefaultItem {
+	/**
+	 * name field in *Members → Items*
+	 *
+	 * - **Field Type**: Rich Text
+	 * - **Placeholder**: *None*
+	 * - **API ID Path**: members.items[].name
+	 * - **Documentation**: https://prismic.io/docs/field#rich-text-title
+	 */
+	name: prismic.RichTextField;
+
+	/**
+	 * img field in *Members → Items*
+	 *
+	 * - **Field Type**: Image
+	 * - **Placeholder**: *None*
+	 * - **API ID Path**: members.items[].img
+	 * - **Documentation**: https://prismic.io/docs/field#image
+	 */
+	img: prismic.ImageField<never>;
+
+	/**
+	 * memberpage field in *Members → Items*
+	 *
+	 * - **Field Type**: Content Relationship
+	 * - **Placeholder**: *None*
+	 * - **API ID Path**: members.items[].memberpage
+	 * - **Documentation**: https://prismic.io/docs/field#link-content-relationship
+	 */
+	memberpage: prismic.ContentRelationshipField;
+}
+
+/**
  * Default variation for Members Slice
  *
  * - **API ID**: `default`
@@ -324,7 +359,7 @@ export type AllDocumentTypes =
 export type MembersSliceDefault = prismic.SharedSliceVariation<
 	'default',
 	Record<string, never>,
-	never
+	Simplify<MembersSliceDefaultItem>
 >;
 
 /**
@@ -416,6 +451,7 @@ declare module '@prismicio/client' {
 			TribepageDocumentDataSlicesSlice,
 			AllDocumentTypes,
 			MembersSlice,
+			MembersSliceDefaultItem,
 			MembersSliceVariation,
 			MembersSliceDefault,
 			SquadSlice,
