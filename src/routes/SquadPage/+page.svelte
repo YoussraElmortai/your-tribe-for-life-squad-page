@@ -6,8 +6,6 @@
     console.log(data)
   </script>
 
-<h1>{data.title[0].text}</h1>
-
-
-
-<!-- <SliceZone slices={data.slices} {components} /> -->
+<h1>{data.title[0].text}</h1> 
+<SliceZone slices={data.slices} {components} />
+ 
