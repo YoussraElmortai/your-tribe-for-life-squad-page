@@ -25,12 +25,21 @@
 	.member-card {
 		background-color: #a675f5;
 		display: flex;
-		width: 10rem;
-		height: auto;
+		align-items: center;
+		width: 9rem;
+		height: 9rem;
 		border-radius: 100%;
+		margin-top: 1rem;
+	}
+
+	.member-card a {
+		text-decoration: none;
+		color: aliceblue;
+		font-size: 15px;
 	}
 
 	.member-card img {
 		width: auto;
+		margin-left: 2.3rem;
 	}
 </style>
