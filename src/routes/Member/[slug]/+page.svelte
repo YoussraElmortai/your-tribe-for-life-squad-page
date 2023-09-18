@@ -3,6 +3,6 @@
 	import { SliceZone } from '@prismicio/svelte';
 	import { components } from '$lib/slices';
 
-		export let data[slug]/$types.js;
-	console.[slug]/$types.js
+	export let data;
+	console.log(data);
 </script>
