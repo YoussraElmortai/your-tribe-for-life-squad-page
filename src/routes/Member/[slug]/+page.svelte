@@ -2,6 +2,7 @@
     import * as prismic from "@prismicio/client";
     import { SliceZone } from "@prismicio/svelte";
     import { components } from "$lib/slices";
+
     export let data;
     console.log(data)
 </script>
@@ -10,28 +11,28 @@
 <SliceZone slices={data.slices} {components} /> -->
 
 <body>
-<div id="member-card">
-<h1>Member name</h1>
-<img id="member-profile-photo" width="200rem" alt="member profile photo" src="https://images.unsplash.com/flagged/photo-1595514191830-3e96a518989b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2787&q=80">
-<p>member info text blabla student blabla FDND blabla bladiebla</p>
-<a href="#">social media</a>
-<a href="#">visitekaartje</a>
-</div>
+    <div id="member-card">
+        <h1>{data.membername}</h1>
+        <img id="member-profile-photo" width="400rem" alt={data.memberimg.alt} src={data.memberimg.url}>
+        <!-- <p>member info text blabla student blabla FDND blabla bladiebla</p>
+        <a href="#">social media</a>
+        <a href="#">visitekaartje</a> -->
+    </div>
 </body>
+
+
 
 <style>
     body {
         display: flex;
         flex-direction: center;
         justify-content: center;
-        background-color: rgb(11, 11, 88);
+        /* background-color: rgb(11, 11, 88); */
     }
 
     h1, p {
         color: rgb(11, 11, 88);
     }
-
-
 
     #member-card {
         border: 10px dotted rgb(174, 75, 189);
@@ -41,10 +42,6 @@
         margin-top:5rem;
         display: flex;
         flex-direction: column;
-    }
-
-    #member-profile-photo {
-
     }
 
     a {
@@ -61,3 +58,6 @@
     }
 
 </style>
+<pre>
+    {JSON.stringify(data, null, 2)}
+</pre>  
