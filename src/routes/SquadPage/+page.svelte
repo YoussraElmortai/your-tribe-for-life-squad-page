@@ -15,16 +15,13 @@
 <SliceZone slices={data.slices} {components} />
 
 {#if yes}
-	<p>check</p>
 	<style>
 		span:before {
-			-webkit-transform: translateX(26px);
-			-ms-transform: translateX(26px);
 			transform: translateX(26px);
+			background-color: red;
 		}
 	</style>
 {:else}
-	<p>not check</p>
 	<style>
 		h3 {
 			display: none;
@@ -59,7 +56,7 @@
 		right: 0;
 		bottom: 0;
 		background-color: #ccc;
-		-webkit-transition: 0.4s;
+		transition: 0.4s;
 		transition: 0.4s;
 		border-radius: 34px;
 	}
@@ -71,7 +68,7 @@
 		left: 4px;
 		bottom: 4px;
 		background-color: white;
-		-webkit-transition: 0.4s;
+		transition: 0.4s;
 		transition: 0.4s;
 		border-radius: 50%;
 	}
