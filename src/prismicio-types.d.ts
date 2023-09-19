@@ -4,6 +4,8 @@ import type * as prismic from '@prismicio/client';
 
 type Simplify<T> = { [KeyType in keyof T]: T[KeyType] };
 
+type MemberDocumentDataSlicesSlice = never;
+
 /**
  * Content for Member documents
  */
@@ -40,6 +42,17 @@ interface MemberDocumentData {
 	 * - **Documentation**: https://prismic.io/docs/field#link-content-relationship
 	 */
 	memberlink: prismic.LinkField;
+
+	/**
+	 * Slice Zone field in *Member*
+	 *
+	 * - **Field Type**: Slice Zone
+	 * - **Placeholder**: *None*
+	 * - **API ID Path**: member.slices[]
+	 * - **Tab**: Main
+	 * - **Documentation**: https://prismic.io/docs/field#slices
+	 */
+	slices: prismic.SliceZone<MemberDocumentDataSlicesSlice>;
 }
 
 /**
@@ -430,6 +443,7 @@ declare module '@prismicio/client' {
 		export type {
 			MemberDocument,
 			MemberDocumentData,
+			MemberDocumentDataSlicesSlice,
 			MemberpageDocument,
 			MemberpageDocumentData,
 			MemberpageDocumentDataSlicesSlice,
