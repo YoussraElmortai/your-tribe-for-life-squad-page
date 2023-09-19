@@ -29,7 +29,7 @@ const routes = [
 		type: 'memberpage',
 		uid: 'memberpage',
 		path: '/:uid'
-	}
+	},
 ];
 
 /**

@@ -35,6 +35,13 @@
 					"allowTargetBlank": false,
 					"select": null
 				}
+			},
+			"slices": {
+				"type": "Slices",
+				"fieldset": "Slice Zone",
+				"config": {
+					"choices": {}
+				}
 			}
 		}
 	}
