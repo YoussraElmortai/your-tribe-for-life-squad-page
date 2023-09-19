@@ -78,4 +78,8 @@
 	input:checked + span:before {
 		background-color: #66e5bf;
 	}
+
+	@media (min-width: 45em) {
+		
+	}
 </style>
