@@ -1,5 +1,4 @@
 <script>
-	/** @type {import("@prismicio/client").Content.MembersSlice} */
 	import * as prismic from '@prismicio/client';
 	export let slice;
 </script>

@@ -13,6 +13,7 @@
 	"devDependencies": {
 		"@slicemachine/adapter-sveltekit": "^0.3.15",
 		"@sveltejs/adapter-auto": "^2.0.0",
+		"@sveltejs/adapter-vercel": "^3.0.3",
 		"@sveltejs/kit": "^1.20.4",
 		"eslint": "^8.28.0",
 		"eslint-config-prettier": "^8.5.0",
