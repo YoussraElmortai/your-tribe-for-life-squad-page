@@ -14,7 +14,7 @@
     <div id="member-card">
         <h1>{data.membername}</h1>
         <img id="member-profile-photo" width="400rem" alt={data.memberimg.alt} src={data.memberimg.url}>
-        <!-- <p>member info text blabla student blabla FDND blabla bladiebla</p>
+        <!-- <p></p>
         <a href="#">social media</a>
         <a href="#">visitekaartje</a> -->
     </div>
