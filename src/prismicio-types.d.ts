@@ -389,16 +389,6 @@ export interface SquadSliceDefaultPrimary {
 	 * - **Documentation**: https://prismic.io/docs/field#rich-text-title
 	 */
 	squadtitle: prismic.RichTextField;
-
-	/**
-	 * Squadlink field in *Squad → Primary*
-	 *
-	 * - **Field Type**: Link
-	 * - **Placeholder**: *None*
-	 * - **API ID Path**: squad.primary.squadlink
-	 * - **Documentation**: https://prismic.io/docs/field#link-content-relationship
-	 */
-	squadlink: prismic.LinkField;
 }
 
 /**
