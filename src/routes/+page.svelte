@@ -11,10 +11,10 @@
 
 <main>
 
-    <a href="/SquadPage"><span>B</span></a>
+    <a href="/SquadPage/squada"><span>A</span></a>
     <SliceZone slices={data.slices} {components} />
   
-    <a href="/SquadPage"><span>B</span></a> 
+    <a href="/SquadPage/squadb"><span>B</span></a> 
     <SliceZone slices={data.slices} {components} />
 
 </main>
