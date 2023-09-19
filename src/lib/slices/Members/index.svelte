@@ -1,5 +1,4 @@
 <script>
-	/** @type {import("@prismicio/client").Content.MembersSlice} */
 	export let slice;
 </script>
 

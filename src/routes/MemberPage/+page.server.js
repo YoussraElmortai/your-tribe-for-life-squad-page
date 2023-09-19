@@ -7,3 +7,4 @@ export async function load({ fetch, request }) {
 
 	return document.data;
 }
+
