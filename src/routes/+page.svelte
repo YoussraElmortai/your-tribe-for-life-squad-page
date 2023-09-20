@@ -1,32 +1,20 @@
 <script>
     import { SliceZone } from '@prismicio/svelte'
     import { components } from '$lib/slices'
+    import Header from '../lib/header.svelte'
 	export let data;
 </script>
 
-<header>
-<h1>{data.title}</h1>
-<p>{data.introtext}</p>
-</header>
+ <Header title={data.title} paragraph={data.introtext}/>
 
-<main>
-
+<section>
+    <SliceZone slices={data.slices} {components} />
     <a href="/SquadPage/squada"><span>A</span></a>
-    <SliceZone slices={data.slices} {components} />
-  
     <a href="/SquadPage/squadb"><span>B</span></a> 
-    <SliceZone slices={data.slices} {components} />
-
-</main>
+</section>
 
 <style>
-    header h1 {
-    font-size: var(--text-size-title);
-    text-align: center; 
-    color: var(--text-color);
-    }
-
-    main {
+    section {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -34,7 +22,7 @@
         flex-direction: column;  
     }
     
-   main a {
+   section a {
         position: relative; 
         background-color:var(--primary-color);
         width: 300px;
@@ -44,17 +32,16 @@
         text-align: center;
     }
 
-    main span {
+  section span {
   position: absolute;
   top: 50%;
   left: 50%; 
   transform: translate(-50%, -50%);  
     }
 
-   
     @media screen and (min-width: 48em) {
         /* Apply the flex-direction: row for desktop screens */
-        main {
+        section {
             flex-direction: row;  
         }
     }

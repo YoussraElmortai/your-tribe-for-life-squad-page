@@ -2,13 +2,14 @@
     import * as prismic from "@prismicio/client";
     import { SliceZone } from "@prismicio/svelte";
     import { components } from "$lib/slices";
+    import Header from '../lib/header.svelte'
 
     export let data;
     console.log(data)
 </script>
 
-<!-- <h1>{data.title[0].text}</h1> 
-<SliceZone slices={data.slices} {components} /> -->
+<Header title={data.title} paragraph={data.introtext}/>
+<!-- <SliceZone slices={data.slices} {components} />  -->
 
 <body>
     <div id="member-card">
@@ -19,8 +20,6 @@
         <a href="#">visitekaartje</a> -->
     </div>
 </body>
-
-
 
 <style>
     body {
@@ -58,6 +57,7 @@
     }
 
 </style>
+
 <pre>
     {JSON.stringify(data, null, 2)}
 </pre>  
