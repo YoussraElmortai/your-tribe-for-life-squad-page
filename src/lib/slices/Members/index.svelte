@@ -38,7 +38,9 @@
 	}
 
 	.member-card img {
-		width: auto;
-		margin-left: 2.3rem;
+		width: 5rem;
+		height: auto;
+		margin-left: 2rem;
+		margin-top: -3rem;
 	}
 </style>

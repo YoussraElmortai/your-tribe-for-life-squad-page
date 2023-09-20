@@ -359,7 +359,7 @@ export interface MembersSliceDefaultItem {
 	 * - **API ID Path**: members.items[].memberpage
 	 * - **Documentation**: https://prismic.io/docs/field#link-content-relationship
 	 */
-	memberpage: prismic.ContentRelationshipField;
+	memberpage: prismic.ContentRelationshipField<'member'>;
 }
 
 /**
