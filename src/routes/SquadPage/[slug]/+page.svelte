@@ -7,13 +7,17 @@
 	let yes = false;
 </script>
 
-<h1>{data.title[0].text}</h1>
-<label>
-	<input type="checkbox" bind:checked={yes} />
-	<span />
-</label>
+<header>
+	<h1>{data.title[0].text}</h1>
+	<label>
+		<input type="checkbox" bind:checked={yes} />
+		<span />
+	</label>
+</header>
 
-<SliceZone slices={data.slices} {components} />
+<main>
+	<SliceZone slices={data.slices} {components} />
+</main>
 
 {#if yes}
 	<style>
@@ -38,6 +42,14 @@
 {/if}
 
 <style>
+	header {
+		margin-left: 2rem;
+		margin-bottom: 3rem;
+	}
+
+	main {
+		margin-left: 2.3rem;
+	}
 	label {
 		position: relative;
 		display: inline-block;
