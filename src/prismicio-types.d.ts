@@ -11,17 +11,6 @@ type MemberDocumentDataSlicesSlice = never;
  */
 interface MemberDocumentData {
 	/**
-	 * MemberImg field in *Member*
-	 *
-	 * - **Field Type**: Image
-	 * - **Placeholder**: *None*
-	 * - **API ID Path**: member.memberimg
-	 * - **Tab**: Main
-	 * - **Documentation**: https://prismic.io/docs/field#image
-	 */
-	memberimg: prismic.ImageField<never>;
-
-	/**
 	 * MemberName field in *Member*
 	 *
 	 * - **Field Type**: Text
@@ -31,6 +20,17 @@ interface MemberDocumentData {
 	 * - **Documentation**: https://prismic.io/docs/field#key-text
 	 */
 	membername: prismic.KeyTextField;
+
+	/**
+	 * MemberImg field in *Member*
+	 *
+	 * - **Field Type**: Image
+	 * - **Placeholder**: *None*
+	 * - **API ID Path**: member.memberimg
+	 * - **Tab**: Main
+	 * - **Documentation**: https://prismic.io/docs/field#image
+	 */
+	memberimg: prismic.ImageField<never>;
 
 	/**
 	 * MemberLink field in *Member*
@@ -76,6 +76,28 @@ type MemberpageDocumentDataSlicesSlice = MembersSlice;
  * Content for memberpage documents
  */
 interface MemberpageDocumentData {
+	/**
+	 * Titlemember field in *memberpage*
+	 *
+	 * - **Field Type**: Text
+	 * - **Placeholder**: *None*
+	 * - **API ID Path**: memberpage.titlemember
+	 * - **Tab**: Main
+	 * - **Documentation**: https://prismic.io/docs/field#key-text
+	 */
+	titlemember: prismic.KeyTextField;
+
+	/**
+	 * introtext field in *memberpage*
+	 *
+	 * - **Field Type**: Rich Text
+	 * - **Placeholder**: *None*
+	 * - **API ID Path**: memberpage.introtext
+	 * - **Tab**: Main
+	 * - **Documentation**: https://prismic.io/docs/field#rich-text-title
+	 */
+	introtext: prismic.RichTextField;
+
 	/**
 	 * Slice Zone field in *memberpage*
 	 *

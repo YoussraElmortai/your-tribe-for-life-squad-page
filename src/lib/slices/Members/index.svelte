@@ -5,8 +5,9 @@
 
 <section data-slice-type={slice.slice_type} data-slice-variation={slice.variation}>
 	{#each slice.items as item}
+		<!-- {console.log(item)} -->
 		<section class="member-card">
-			<a href={item.memberpage}>
+			<a href="/Member/{item.name[0].text.split(' ')[0].toLowerCase()}">
 				<h3>{@html prismic.asHTML(item.name)}</h3>
 				<img src={item.img.url} alt={item.img.alt} width="50em" height="50em" />
 			</a>
