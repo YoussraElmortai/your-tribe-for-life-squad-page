@@ -1,12 +1,12 @@
 # FDND tribe, squad en memberpage 🧑‍🎓💻
 
 ## 📃 Inhoudsopgave 
-1. Beschrijving ℹ️
-2. Gebruik 🖥️
-3. Kenmerken 💡
-4. Installatie 📥
-5. Bronnen 🌍
-6. Licentie 🪪
+1. [Beschrijving ℹ️](https://github.com/zombie0youssra/your-tribe-for-life-squad-page#%E2%84%B9%EF%B8%8F-beschrijving)
+2. [Gebruik 🖥️](https://github.com/zombie0youssra/your-tribe-for-life-squad-page#%EF%B8%8F-gebruik)
+3. [Kenmerken 💡](https://github.com/zombie0youssra/your-tribe-for-life-squad-page#-kenmerken)
+4. [Installatie 📥](https://github.com/zombie0youssra/your-tribe-for-life-squad-page#-installatie)
+5. [Bronnen 🌍](https://github.com/zombie0youssra/your-tribe-for-life-squad-page#-bronnen)
+6. [Licentie 🪪](https://github.com/zombie0youssra/your-tribe-for-life-squad-page#-licentie)
 
 #
 
