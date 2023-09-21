@@ -10,7 +10,7 @@
 			<section class="member-card">
 				<a href="/Member/{item.name[0].text.split(' ')[0].toLowerCase()}">
 					<h3>{@html prismic.asHTML(item.name)}</h3>
-					<img src={item.img.url} alt={item.img.alt} width="50em" height="50em" />
+					<img src={item.img.url} loading="lazy" alt={item.img.alt} width="50em" height="50em" />
 				</a>
 			</section>
 		{/each}
