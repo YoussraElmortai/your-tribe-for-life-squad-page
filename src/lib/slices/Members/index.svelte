@@ -41,11 +41,6 @@
 		overflow: hidden;
 	}
 
-	.member-card:hover {
-		scale: 200%;
-		opacity: 1;
-	}
-
 	.member-card a {
 		text-decoration: none;
 		font-size: 15px;
