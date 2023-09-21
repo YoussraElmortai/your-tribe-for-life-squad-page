@@ -12,6 +12,7 @@
 	<input type="checkbox" bind:checked={yes} />
 	<span />
 </label>
+
 <SliceZone slices={data.slices} {components} />
 
 {#if yes}

@@ -21,6 +21,7 @@
 		flex-direction: row;
 		flex-wrap: wrap;
 		gap: 2rem;
+		align-items: center;
 	}
 
 	.member-card {
