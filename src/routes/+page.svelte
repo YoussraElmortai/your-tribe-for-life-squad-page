@@ -5,7 +5,8 @@
 	export let data;
 </script>
 
- <Header title={data.title} paragraph={data.introtext}/>
+ <Header title={data.title} paragraph={data.introtext[0]}/>
+ 
 
 <section>
     <SliceZone slices={data.slices} {components} />
