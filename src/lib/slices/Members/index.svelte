@@ -19,8 +19,9 @@
 		display: flex;
 		flex-direction: row;
 		flex-wrap: wrap;
-		gap: 1rem;
+		gap: 2rem;
 	}
+
 	.member-card {
 		background-color: #a675f5;
 		display: flex;
@@ -29,18 +30,17 @@
 		height: 9rem;
 		border-radius: 100%;
 		margin-top: 1rem;
+		overflow: hidden;
 	}
 
 	.member-card a {
 		text-decoration: none;
-		color: aliceblue;
 		font-size: 15px;
 	}
 
 	.member-card img {
-		width: 5rem;
+		width: 9rem;
 		height: auto;
-		margin-left: 2rem;
-		margin-top: -3rem;
+		margin-top: -4.5rem;
 	}
 </style>
