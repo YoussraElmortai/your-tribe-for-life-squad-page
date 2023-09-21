@@ -25,13 +25,13 @@ Deze website is bedoeld voor de (oud) studenten van FDND. Op deze website kun je
 
 In dit project zijn de volgende technieken toegepast:
 
-HTML
-CSS
-JavaScript
-NodeJS
-Prismic
-Svelte
-Sveltekit
+* HTML
+* CSS
+* JavaScript
+* NodeJS
+* Prismic
+* Svelte
+* Sveltekit
 
 ## 📥 Installatie 
 
