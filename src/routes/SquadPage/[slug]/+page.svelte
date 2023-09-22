@@ -4,6 +4,8 @@
 	import { components } from '$lib/slices';
 	export let data;
 	let yes = false;
+
+	console.log(data)
 </script>
 
 
