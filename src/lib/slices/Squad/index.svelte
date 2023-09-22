@@ -40,22 +40,6 @@
 		margin-bottom: 10rem;
 
 	}
-/* 
-   section {
-  	animation: move 5s infinite alternate;
-  	transition: 0.1s cubic-bezier(0.07, 0.8, 0.16, 1);
-  }
-
-
-@keyframes move {
-  from {
-    transform: translate(190px, -40px) rotate(-60deg);
-  }
-
-  to {
-    transform: translate(-190px, 100px) rotate(-10deg);
-  }
-} */
 
 @media screen and (min-width: 48em) {
         section {
