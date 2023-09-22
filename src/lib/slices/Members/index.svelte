@@ -30,6 +30,7 @@
 		flex-wrap: wrap;
 		gap: 2rem;
 		align-items: center;
+		justify-content: center;
 	}
 
 	.wrapper {
