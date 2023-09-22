@@ -21,6 +21,11 @@ FDND is een opleiding voor Frontend designers en developers. Deze website geeft 
 
 ## 🖥️ Gebruik 
 Deze website is bedoeld voor de (oud) studenten van FDND. Op deze website kun je een overzicht van de squads zien op de tribe page. Ook een overzicht van de members in een squad bekijken op de squad page. Tot slot de details van individuele squad members zien op de memberdetailpagina.
+<img width="903" alt="image" src="https://github.com/zombie0youssra/your-tribe-for-life-squad-page/assets/112857270/55609648-91fb-4f8c-abf6-04e29928bea6">
+<img width="387" alt="image" src="https://github.com/zombie0youssra/your-tribe-for-life-squad-page/assets/112857270/00632119-4d95-4acd-b24f-6fd64f01b3bb">
+
+
+
 
 ## 💡 Kenmerken 
 
