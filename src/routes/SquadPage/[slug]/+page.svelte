@@ -2,12 +2,11 @@
 	import * as prismic from '@prismicio/client';
 	import { SliceZone } from '@prismicio/svelte';
 	import { components } from '$lib/slices';
-	import Header from '$lib/header.svelte'
 	export let data;
 	let yes = false;
 </script>
 
-<Header title={data.title} paragraph={data.introtext[0].text}/>
+
 
 <label>
 	<input type="checkbox" bind:checked={yes} />

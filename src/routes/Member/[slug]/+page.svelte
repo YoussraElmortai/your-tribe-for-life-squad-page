@@ -2,14 +2,12 @@
     import * as prismic from "@prismicio/client";
     import { SliceZone } from "@prismicio/svelte";
     import { components } from "$lib/slices";
-    import Header from '../lib/header.svelte'
 
     export let data;
     console.log(data)
 </script>
 
-<Header title={data.title} paragraph={data.introtext[0].text}/>
-{console.log(data.title)}
+
 
 <body>
     <div id="member-card">
