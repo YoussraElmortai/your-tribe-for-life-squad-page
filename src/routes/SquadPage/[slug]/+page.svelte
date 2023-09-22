@@ -10,10 +10,12 @@
 
 
 
-
+<legend>Toon alle members</legend>
 <label>
 	<input type="checkbox" bind:checked={yes} />
-	<span />
+	<span>
+
+	</span>
 </label>
 
 <main>
@@ -51,6 +53,10 @@
 
 	main {
 		margin-left: 2.3rem;
+	}
+	legend{
+		color:white;
+		margin-bottom: .5rem;
 	}
 	label {
 		position: relative;
