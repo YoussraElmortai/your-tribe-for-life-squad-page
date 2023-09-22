@@ -6,13 +6,18 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@800&display=swap');
         :global(body){
-            margin: 0;
+            margin: 0 auto;
             overflow-x: hidden;
             box-sizing: border-box;
             font-family: 'Inconsolata', monospace;
             background-color: #050542;
         }
+
+        main {
+            margin: 2rem;
+        }
         
+
         :root {
         --primary-color: #a675f5;
         --secondary-color: #fffc86;

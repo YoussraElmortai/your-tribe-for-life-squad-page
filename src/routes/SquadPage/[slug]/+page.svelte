@@ -7,7 +7,7 @@
 	let yes = false;
 </script>
 
-<Header title={data.title} paragraph={data.introtext}/>
+<Header title={data.title} paragraph={data.introtext[0].text}/>
 
 <label>
 	<input type="checkbox" bind:checked={yes} />
