@@ -3,8 +3,8 @@
 </script>
 
 <section  data-slice-type={slice.slice_type} data-slice-variation={slice.variation}>
-	{#each slice.squad as squad}
-			<a href="/Squadpage/squad{squad.slice.primary.squadtitle[0].text}">
+	{#each slice.items as squad}
+			<a href="/Squadpage/{squad.uid}">
 				<span>{slice.primary.squadtitle[0].text}</span>
 			</a>
 	{/each}
