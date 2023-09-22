@@ -46,16 +46,11 @@
 {/if}
 
 <style>
-	header {
-		margin-left: 2rem;
-		margin-bottom: 3rem;
-	}
-
 	main {
 		margin-left: 2.3rem;
 	}
 	legend{
-		color:white;
+		color: #FFFC86;
 		margin-bottom: .5rem;
 	}
 	label {

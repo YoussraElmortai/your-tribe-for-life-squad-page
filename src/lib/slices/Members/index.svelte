@@ -20,9 +20,9 @@
 </body>
 
 <style>
-	body:has(.member-card:hover) {
+	/* body:has(.member-card:hover) {
 		opacity: 0.5;
-	}
+	} */
 
 	section {
 		display: flex;
@@ -31,11 +31,14 @@
 		gap: 2rem;
 		align-items: center;
 		justify-content: center;
+		margin-top: 5rem;
+		overflow: visible;
 	}
 
 	.wrapper {
 		display: flex;
 		flex-direction: column;
+		margin-top: -5rem;
 	}
 
 	.member-card {
