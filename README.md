@@ -13,6 +13,7 @@
 ## ℹ️ Beschrijving
 
 FDND is een opleiding voor Frontend designers en developers. Deze website geeft een overzicht van de studenten die deze opleiding volgen in het schooljaar van 2023/2024.
+<img width="943" alt="image" src="https://github.com/zombie0youssra/your-tribe-for-life-squad-page/assets/112857270/6237c56a-e463-4c04-9f8d-ec9a134bd6b3">
 
 <img width="" alt="" src="">
 
