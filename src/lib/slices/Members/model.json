@@ -34,7 +34,10 @@
           "type": "Link",
           "config": {
             "label": "memberpage",
-            "select": "document"
+            "select": "document",
+            "customtypes": [
+              "member"
+            ]
           }
         }
       }

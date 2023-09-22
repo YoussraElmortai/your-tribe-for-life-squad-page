@@ -12,19 +12,19 @@
 				},
 				"type": "UID"
 			},
+			"membername": {
+				"type": "Text",
+				"config": {
+					"label": "MemberName",
+					"placeholder": ""
+				}
+			},
 			"memberimg": {
 				"type": "Image",
 				"config": {
 					"label": "MemberImg",
 					"constraint": {},
 					"thumbnails": []
-				}
-			},
-			"membername": {
-				"type": "Text",
-				"config": {
-					"label": "MemberName",
-					"placeholder": ""
 				}
 			},
 			"memberlink": {
