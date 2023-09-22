@@ -16,8 +16,6 @@
 	<span />
 </label>
 
-<SliceZone slices={data.slices} {components} />
-
 <main>
 	<SliceZone slices={data.slices} {components} />
 </main>
