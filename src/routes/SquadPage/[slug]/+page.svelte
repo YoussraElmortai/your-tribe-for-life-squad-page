@@ -4,6 +4,8 @@
 	import { components } from '$lib/slices';
 	export let data;
 	let yes = false;
+
+	console.log(data)
 </script>
 
 
@@ -13,8 +15,6 @@
 	<input type="checkbox" bind:checked={yes} />
 	<span />
 </label>
-
-<SliceZone slices={data.slices} {components} />
 
 <main>
 	<SliceZone slices={data.slices} {components} />
