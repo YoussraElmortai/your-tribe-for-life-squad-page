@@ -8,8 +8,8 @@
     console.log(data)
 </script>
 
-<Header title={data.title} paragraph={data.introtext}/>
-<!-- <SliceZone slices={data.slices} {components} />  -->
+<Header title={data.title} paragraph={data.introtext[0].text}/>
+{console.log(data.title)}
 
 <body>
     <div id="member-card">
